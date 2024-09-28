@@ -68,7 +68,6 @@ func setupDotfiles() {
 
 	utils.RunOsCommand("mkdir -p ~/.config")
 
-	fmt.Printf("FILES FILES %d", len(files))
 	for _, file := range files {
 		if strings.HasSuffix(file.Name(), ".git") {
 			continue
