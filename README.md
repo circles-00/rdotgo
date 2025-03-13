@@ -1,6 +1,21 @@
 # rdotgo
+`rdotgo` is a command-line tool designed to quickly set up a development environment on a new machine. It automates the process of downloading and configuring the necessary files and tools, allowing developers to start working right away.
 
-rdotgo is a CLI to get all my needed files and tools on a new PC so I can use it ASAP
+## **Installation:**
+Clone the repository and build the application with:
 
-# TODO
-Need to do a lot of work documenting the CLI within Cobra and README as well
+```bash
+git clone https://github.com/circles-00/rdotgo.git
+cd rdotgo
+go build
+```
+
+## **Usage:**
+Run the command to set up your machine:
+
+```bash
+./rdotgo
+```
+
+## **License:**  
+This project is licensed under the MIT License.
